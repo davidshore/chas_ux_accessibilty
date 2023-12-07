@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerBg {
+  background-image: url(/images/1683558927-start-hero.webp);
+  background-size: cover;
+  background-position: center;
+}

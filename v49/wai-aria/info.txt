@@ -1,0 +1,18 @@
+WAI ARIA - Web Accessibility Initiative - Accessible Rich Internet Applications
+
+Använd aria-attribut t.ex. aria-expanded för att beskriva tillstånd för en Screen reader.
+- aria-expanded kan vara true eller false beroende på om en accordion är öppen eller stängd.
+
+Föredra inbyggd html-element framför att skapa egna componenter med aria
+
+Egen komponent:
+<div
+  id="percent-loaded"
+  role="progressbar"
+  aria-valuenow="75"
+  aria-valuemin="0"
+  aria-valuemax="100"></div>
+
+
+Inbyggd html:
+<progress id="percent-loaded" value="75" max="100">75 %</progress>
